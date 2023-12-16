@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import { IoPersonOutline } from "react-icons/io5";
+import { MdOutlinePerson } from "react-icons/md";
 
 const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genres, tags, video } }) => {
   return (
@@ -11,18 +13,7 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
         <div className='content flex'>
           <div className='details row'>
             <h1>{name}</h1>
-            <div className='rating flex'>
-              <div className='rate'>
-                <i className='fas fa-star'></i>
-                <i className='fa fa-star'></i>
-                <i className='fa fa-star'></i>
-                <i className='fa fa-star'></i>
-                <i className='fa fa-star-half'></i>
-              </div>
-              <label>{rating}(Imdb)</label>
-              <span>GP</span>
-              <label>{time}</label>
-            </div>
+          
             <p>{desc}</p>
             <div className='cast'>
               <h4>

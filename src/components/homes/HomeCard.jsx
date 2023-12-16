@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { IoPersonOutline } from "react-icons/io5";
 import { MdOutlinePerson } from "react-icons/md";
-
 const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, janr, tags, video } }) => {
   return (
     <>

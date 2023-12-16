@@ -10,7 +10,7 @@ const Header = () => {
         <div className='container flexSB'>
           <nav className='flexSB'>
             <div className='logo'>
-              <img src='./images/logo.png' alt='' />
+              <img src='./images/logotext.png' alt='' />
             </div>
          
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>

@@ -2,7 +2,7 @@ export const homeData = [
   {
     id: 1,
     name: "Sand Dust",
-    rating: 4.7,
+    rating: 4.,
     time: "2hr : 22mins",
     desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
     starring: "Karen Gilchrist, James Earl Jones",

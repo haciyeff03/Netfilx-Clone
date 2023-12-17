@@ -9,23 +9,23 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <ul className='flex'>
-              <li>Terms of Use</li>
-              <li>Privacy-Policy</li>
+              <li>İstifadə qaydaları</li>
+              <li>Gizlilik Siyasəti</li>
               <li>Blog</li>
               <li>FAQ</li>
-              <li>Watch List</li>
+              <li>Baxış Siyahısı</li>
             </ul>
-            <p>© 2022 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</p>
+            <p>© 2023 STREAMIT. Bütün hüquqlar qorunur. Bu platformadakı bütün videolar və şoular Streamit Inc-in ticarət nişanlarıdır və bütün əlaqəli şəkillər və məzmunlar Streamit Inc-in mülkiyyətidir. Bunun təkrarlanması və surəti qəti qadağandır. Bütün hüquqlar qorunur.</p>
           </div>
           <div className='box'>
-            <h3>Follow Us</h3>
+            <h3>Bizi izləyin</h3>
             <i className='fab fa-facebook-f'></i>
             <i className='fab fa-twitter'></i>
             <i className='fab fa-github'></i>
             <i className='fab fa-instagram'></i>
           </div>
           <div className='box'>
-            <h3>Streamit App</h3>
+            <h3>Streamit Tətbiqi</h3>
             <div className='img flexSB'>
               <img src='https://img.icons8.com/color/48/000000/apple-app-store--v3.png' />
               <span>App Store</span>

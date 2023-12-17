@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import { MdLocalGroceryStore } from "react-icons/md";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   const [Mobile, setMobile] = useState(false)
   return (
@@ -9,10 +9,11 @@ const Header = () => {
       <header>
         <div className='container flexSB'>
           <nav className='flexSB'>
+            <Link to="/">
             <div className='logo'>
               <img src='./images/logotext.png' alt='' />
             </div>
-         
+            </Link>
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
                 <a href='/'>Əsas səhifə</a>

@@ -49,7 +49,7 @@ const Upcomming = ({ items, title }) => {
         <div className='container'>
           <div className='heading flexSB'>
             <h1>{title}</h1>
-            <Link to='/'>View All</Link>
+            <Link to='/'>Hamısına bax</Link>
           </div>
           <div className='content'>
             <Slider {...settings}>

@@ -12,10 +12,10 @@ const HomePage = () => {
   return (
     <>
       <Homes />
-      <Upcomming items={items} title='Upcomming Movies' />
-      <Upcomming items={item} title='Latest Movies' />
+      <Upcomming items={items} title='Cizgi filmləri' />
+      <Upcomming items={item} title='Ən yeni filmlər' />
       <Trending />
-      <Upcomming items={rec} title='Recommended Movies' />
+      <Upcomming items={rec} title='Tövsiyə edilənlər' />
     </>
   )
 }

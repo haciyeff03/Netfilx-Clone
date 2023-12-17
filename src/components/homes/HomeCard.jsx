@@ -33,9 +33,11 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, janr,
                 {tags}
               </h4>
             </div>
-            <button className='primary-btn'>
-              <i className='fas fa-play'></i>  <h3>Başlat</h3>
-            </button>
+            <Link to="/buy-ticket">
+  <button className="primary-btn">
+    <i className="fas fa-play"></i> <h3>Başlat</h3>
+  </button>
+</Link>
           </div>
           <div className='palyButton row'>
             <Link to={`/singlepage/${id}`}>

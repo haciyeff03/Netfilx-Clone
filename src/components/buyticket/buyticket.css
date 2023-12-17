@@ -1,0 +1,68 @@
+/* App.css or any separate CSS file */
+
+/* General styles */
+
+
+.buy-ticket-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #E50813;
+    margin-bottom: 20px;
+}
+
+.movie-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.movie-poster {
+    width: 500px;
+    /* height: 300px; */
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie-info {
+    text-align: left;
+}
+
+.movie-info h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.ticket-selection {
+    margin-bottom: 40px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #020201;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #E50813;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #a7000e;
+}
